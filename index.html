@@ -16,19 +16,12 @@
         }
 
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: 'Comic Sans MS', sans-serif;
             background: rgb(255, 234, 246);
             background-size: 400% 400%;
-           
             min-height: 100vh;
             overflow-x: hidden;
         }
-
-        /* @keyframes gradientShift {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        } */
 
         .container {
             max-width: 1200px;
@@ -116,37 +109,28 @@
         }
 
         .cake-button {
-            position: relative;
-            display: inline-block;
-            padding: 12px 24px;
+            background-color: #8dff1b;
+            color: rgb(0, 0, 0);
+            border: 3px solid #000000;
+            padding: 10px 20px;
+            font-size: 1.6rem;
+            cursor: pointer;
             width: 300px;
             height: 100px;
-            font-size: 1.8rem;
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            color: white;
-            background-color: #000;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.2s ease;
-            margin-top: 30px;;
+            border-radius: 999px;
+            box-shadow: 5px 5px #000000;
+           align-items: center;
+            display: flex;
+            justify-content: center;
+            font: serif;
+            text-transform: uppercase;
         }
 
         .cake-button:active,
         .cake-button:hover {
-            background-color: #333;
-            box-shadow: 
-              -12px 12px 0px #FF6B47,
-                25px 25px #ffe659,
-                -38px 38px #006eff,
-                50px 50px #94ff19,
-                -12px -12px 0px #ff17c5,
-                25px -25px #852bf4,
-                -38px -38px #ff9900,
-                50px -50px #207481;
-            transform: translate(-30px, 18px);
+                background-color: #ff17c5;
+             box-shadow: 12px 12px #000000;
+            transform: translate(-15px, -10px); /* right 2px, up 2px */
         }
         
 
